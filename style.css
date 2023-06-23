@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+
+
+/* General  */
+body {font-family: 'Roboto', sans-serif;color:#000;}
+.barlowFont{font-family: 'Ubuntu', sans-serif;color:#000;}
+
+
+/* Common-css  */
+.mybtn { color: #fff;background-color: #b48f3c;border-color: #b48f3c; padding: 8px 30px;font-size:20px;width:auto;}
+.mybtn:hover {background-color: #b48f3c;box-shadow: 0px 0px 4px #fff;}
+
+.mainHeader .navbar-light .navbar-nav .nav-link.active {color: #b48f3c;font-weight: 500;}
+.mainHeader .navbar-light .navbar-nav .nav-link:hover {color: #b48f3c;}
+.relative {position:relative;}
+.no-border {border: none;}
+.width100 {width: 100%;}
+.mt-0 {margin-top:0px;}
+.mt-10 {margin-top:10px;}
+.mt-20 {margin-top:20px;}
+.mt-30 {margin-top:30px;}
+.mt-40 {margin-top:40px;}
+.mb-0 {margin-bottom:0px;}
+.mb-10 {margin-bottom:10px;}
+.mb-20 {margin-bottom:20px;}
+.mb-30 {margin-bottom:30px;}
+.mb-40 {margin-bottom:40px;}
+.overflowhide{overflow: hidden;}
+.header{font-size: 45px;text-transform:capitalize;margin-bottom: 25px;}
+.text-para{font-size: 16px;margin-bottom:10px;letter-spacing: .4px; word-spacing: 1.2px;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Top Header */
+.logo_main {height:65px;}
+.mainHeader {background-color: #fff;padding: 1px 0;box-shadow: 0 0 5px #ccc; position: sticky; top: 0;z-index: 9999;}
+.mainHeader.shadow {background-color: #fff;padding: 1px 0;box-shadow: 0px 2px 5px #ccc;margin-bottom: 5px;}
+.mainHeader .navbar {padding-top:1px;padding-bottom:1px;}
+.mainHeader .navbar.bg-light {background-color: transparent;}
+.mainHeader .navbar-light .navbar-nav .nav-link {color: #000;font-size: 16px; margin: 0 15px;font-weight: 400;}
+.mainHeader .navbar-light .navbar-nav .nav-link.myBTN {color: #fff;padding: 8px 30px;}
+.getbtn{margin-top: 20px;}
+.mainHeader .dropdown-item:hover {background-color: #b48f3c; color: #fff;}
+/* Banner-section  */
+.bannerWapper {position:relative;}
+.bannerWapper .baneerText {position:absolute;top:50%;left:55%;transform:translate(-50%, -50%);width:90%;}
+.bannerWapper .baneerText .bannerHead1 {font-size:65px;font-weight:700;color:#fff;text-shadow: 5px 6px 5px #1c1c1c;}
+.bannerWapper .baneerText .bannerHead {font-size:32px;font-weight:500;color:#fff;line-height: 35px;max-width:90%; text-shadow: 1px 1px 5px #282828;text-align: center;}
+.bannerWapper .mybtn{position: absolute; left: 30%;} 
+.requestmodal.modal.show .modal-dialog {top: 10%;}
+.requestmodal .modal-content{background: #d5d5d5;border-radius: 20px;}
+.requestmodal .mybtn:hover{color: #fff;}
+.requestmodal .formtitle{display: block; width: 100%; text-align: center;}
+/* About-us  */
+.aboutbg{ padding-top: 50px; padding-bottom: 150px;}
+/* Feature-main  */
+.features-main{padding-top: 50px; padding-bottom: 50px; background-color: #f1f1f1;}
+.features-main .featureimg{position: relative;top: -160px;left: 100px;}
+.features-main .featuretxt{position: absolute;top: -125px;}
+/* Feature  */
+.Feat-secu{padding-top: 50px; padding-bottom: 50px;}
+.Feat-secu h5{font-size: 18px;margin-left: 10px;margin-bottom: 30px;}
+.Feat-secu i{font-size: 24px;transform: translateY(-2px);}
+.countery-main{padding-top: 50px; padding-bottom: 35px;}
+.countery-main ul li{text-decoration: none; list-style-type: none;line-height: 30px;}
+.countery-main h2{text-align: center; margin-bottom: 4px;}
+.countery-main .text-para{text-align: center; margin-bottom: 8px;}
+.countery-main h5{margin-top: 15px;}
+/* Profile-main  */
+.profile-main{padding-top: 50px; padding-bottom: 50px; background-color: #f2f2f2;}
+.profile-main ul li{text-decoration: none; list-style-type: none;display: flex;}
+.profile-main h5{margin-top: 50px;display: flex;}
+.profile-main span{margin-left: 15px;}
+/* academic */
+.academicbg{padding-top: 50px; padding-bottom: 80px;}
+
+/* Download-PanelBook  */
+.dwnpalmain{padding-top: 50px; padding-bottom: 50px; background-color: #d7b66e;}
+.dwnpalmain a{color: #000;text-decoration: none;margin-right: 20px;}
+.dwnpalmain .downlodhead{font-size:20px; margin-top: 10px; }
+.dwnpalmain .imgdwn{height: 150px;}
+
+/* Contact-Us  */
+.contact-us {background-color: #000; padding-top: 90px; padding-bottom: 90px; }
+.contact-us .heading {color: #f3f3f3;font-size: 35px;font-weight: 500;margin-bottom: 20px;}
+.contact-us .content {font-size: 16px;line-height: 25px;font-weight: 400;color: #f3f3f3;}
+.contact-us .form-card {background-color: #f3f3f3;padding: 40px;border-radius: 10px;}
+.contact-us .custom-input, .contact-us .custom-textarea {border-radius: 10px;margin-bottom: 15px;filter: drop-shadow(1px 1px 2px #30303034);}
+.contact-us .mybtn {width: 100%;margin-top: 20px;text-transform: uppercase;}
+.contact-us .mybtn:hover {color: #fff;}
+.contact-us .contacthead{font-size: 24px; font-weight: 500; color: #2c3232;}
+.contact-us .contactpara{font-size: 16px; color: #2c3232; margin-bottom: 35px;}
+.contact-us ul li { color: #fff; text-decoration: none; list-style-type: none;font-size: 20px;line-height: 50px; }
+.contact-us ul li a {color: #fff;margin-left: 20px;text-decoration: none;}
+
+/* Footer  */
+.footer-main{background-color: #25292c; padding-top: 20px; padding-bottom: 10px;}
+.footer-main p{color: #fff;}
+.footer-main .socialicons a {margin-right: 10px;font-size: 18px;color: #fff;
+    border: 1px solid #fff;border-radius: 30px;padding: 6px 9px;}
+
+.worldmap #side-box, .highcharts-credits, .worldmap .selector {display: none;}
+
+/* ---------- Media ---------- */
+/* ##Device = Desktops, ##Screen = 1281px to higher resolution desktops */
+@media (min-width:1281px){
+	
+}
+/* ##Device = Laptops, Desktops, ##Screen = B/w 1025px to 1280px */
+@media (min-width:1025px) and (max-width:1280px){
+ 
+}
+/* ##Device = Tablets, Ipads (portrait), ##Screen = B/w 768px to 1024px */
+@media (min-width:768px) and (max-width:1024px){
+ 
+}
+/* ##Device = Tablets, Ipads (landscape), ##Screen = B/w 768px to 1024px */
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+}
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape), ##Screen = B/w 481px to 767px */
+@media (min-width:481px) and (max-width:767px){
+ 
+}
+/* ##Device = Most of the Smartphones Mobiles (Portrait), ##Screen = B/w 320px to 479px */
+@media (min-width:320px) and (max-width:480px){
+    .logo_main {height: 35px;}
+    .header{font-size: 30px;}
+    .bannerWapper .baneerText{top:55%;left: 63%;}
+    .bannerWapper .banner-img{min-height: 170px;}
+    .bannerWapper .baneerText .bannerHead {font-size: 18px;font-weight: 500;color: #fff;
+        line-height: 20px;max-width: 70%;text-shadow: 1px 1px 5px #282828;text-align: center;}
+    .bannerWapper .mybtn {position: relative;top: -12px;left: -60px;font-size: 14px;}
+    .features-main .featu-img{height: 200px;}
+    .features-main .featureimg{left: 14px;}
+    .features-main .featuretxt{position: static; margin-top: -120px;}
+    .aboutbg .aboutusimage{margin-top: 35px;}
+    .features-main{padding-bottom: 20px;}
+    .academicbg .academictxt{margin-top: 30px;}
+    .socialicons {text-align: left !important; margin-top: 10px; margin-bottom: 10px;}
+    .Feat-secu{padding-left: 50px;padding-top: 30px;padding-bottom: 30px;}
+    .Feat-secu h5{font-size: 20px;margin-left: 20px;margin-bottom: 25px;}
+    .Feat-secu h5:nth-child(5){text-indent: 10px;}
+ }
